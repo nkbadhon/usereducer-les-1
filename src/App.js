@@ -4,7 +4,14 @@ export default function counter(){
 
   const initialState = 0;
 const reducer = (state, action)=>{
+switch (action) {
+  case 'increment':
+    
+    break;
 
+  default:
+    return state;
+}
 }
 useReducer(reducer, initialState);
 return(
